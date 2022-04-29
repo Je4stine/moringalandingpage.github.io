@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+*{
+    font-family:'Nunito',sans-serif;
+    flex: 1;
+    
+   
+}
+
+.navItems {
+    display: flex;
+    flex-direction: row;
+}
+
+#subItems{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-items: flex-end;
+    
+}
+
+#button{
+    
+    background-color: #EC4067;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 100px;
+    align-content: center;
+}
+
+.container1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container1 h1{
+    color: #EC4067;
+    font-weight: 100;
+}
+.container1button{
+    display: flex;
+    flex-direction: row;
+}
+
+#explore{
+    margin-left: 50px;
+    border:1px #EC4067 solid;
+    height: 20px;
+    max-width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+.stories{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+#storyText{
+    margin-left: 60px;
+}
+
+.mentors{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#buttons{
+    background-color: #EC4067;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 150px;
+    align-content: center;
+}
+.mentors{
+    position: relative;
+}
+.mentors h2{
+    color: #EC4067;
+    font-weight: 100;
+}
+
+.mentorNames{
+    position: absolute;
+    bottom: 240px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+}
+
+.project h1{
+    color: #EC4067;
+    font-weight: 100;
+}
+
+#spanz{
+    color: #EC4067;
+}
+
+.titles{
+    position: absolute;
+    bottom: 20px;
+    left: 120px;
+}
+
+#buttons :hover{
+    color: red;
+}
+
+.footer{
+    margin-top: 20px;
+    height: 200px;
+    width: auto;
+    background-color: rgb(236, 235, 235);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.titles1{
+    position:absolute;
+    color: aliceblue;
+}
